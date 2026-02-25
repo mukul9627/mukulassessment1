@@ -8,3 +8,5 @@ export default defineConfig({
     tailwindcss(),
   ],
 })
+
+//  this code use vite for faster 
