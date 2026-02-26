@@ -90,13 +90,13 @@ export function SupportSection() {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-row gap-4">
               <button
                 className="text-white rounded-xl transition-all duration-200 hover:-translate-y-0.5"
                 style={{
-                  fontSize: "16px",
+                  fontSize: "12px",
                   fontWeight: 500,
-                  padding: "17px 44px",
+                  padding: "0px 32px",
                   background: "linear-gradient(135deg, #2F80ED, #1E5FA8)",
                   boxShadow: "0 4px 16px rgba(47,128,237,0.3)",
                 }}
@@ -108,7 +108,7 @@ export function SupportSection() {
                 style={{
                   fontSize: "16px",
                   fontWeight: 500,
-                  padding: "17px 44px",
+                  padding: "14px 14px",
                   color: "#1A1A1A",
                 }}
               >

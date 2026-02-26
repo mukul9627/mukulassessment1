@@ -178,16 +178,16 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div
-          className="border-t pt-8 flex flex-col sm:flex-row items-center justify-between gap-4"
+          className="border-t pt-8 flex flex-col sm:flex-row items-center justify-center gap-4"
           style={{ borderColor: "rgba(255,255,255,0.07)" }}
         >
-          <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.25)" }}>
-            © 2025 Athlete Management System, India. All Rights Reserved.
+          <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.25)", textTransform:"uppercase" }}>
+           COPYRIGHT © 2026 Athlete Management System . All Rights Reserved.
           </p>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
             <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.25)" }}>All systems operational</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

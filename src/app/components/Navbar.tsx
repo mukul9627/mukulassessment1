@@ -103,7 +103,7 @@ export function Navbar() {
       {/* Mobile Menu */}
       <div
         className="lg:hidden overflow-hidden transition-all duration-300 ease-in-out"
-        style={{ maxHeight: mobileOpen ? "400px" : "0px" }}
+        style={{ maxHeight: mobileOpen ? "443px" : "0px" }}
       >
         <div
           className="border-t border-white/10"
