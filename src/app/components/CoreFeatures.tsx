@@ -9,7 +9,7 @@ const features = [
     color: "#2F80ED",
     bg: "#EEF4FF",
     angle: 210,
-    icon: "🏋️",
+    icon: "01",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const features = [
     color: "#0b7a3e",
     bg: "#ecfdf5",
     angle: 150,
-    icon: "💚",
+    icon: "02",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const features = [
     color: "#7c3aed",
     bg: "#faf5ff",
     angle: 90,
-    icon: "🥗",
+    icon: "03",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const features = [
     color: "#b45309",
     bg: "#fffbeb",
     angle: 30,
-    icon: "📊",
+    icon: "04",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const features = [
     color: "#0891b2",
     bg: "#ecfeff",
     angle: 330,
-    icon: "🔗",
+    icon: "05",
   },
 ];
 
@@ -267,7 +267,7 @@ export function CoreFeatures() {
                 boxShadow: "0 2px 16px rgba(0,0,0,0.05)",
               }}
             >
-              <div className="text-2xl mb-4">{f.icon}</div>
+              <div className="text-2xl mb-4" style={{fontFamily: "'Rajdhani', sans-serif",  fontWeight: 700}}>{f.icon}</div>
               <div className="mb-2" style={{ fontSize: "20px", fontWeight: 600, color: "#1A1A1A", lineHeight: 1.3 }}>
                 {f.title}
               </div>

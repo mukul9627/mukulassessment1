@@ -118,7 +118,7 @@ export function IndianEcosystem() {
           fontSize: "36px",
           fontWeight: 700,
           lineHeight: 1,
-          color: "#2F80ED",
+          color: "#fff",
         }}
       >
         {s.val}

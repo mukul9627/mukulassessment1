@@ -238,7 +238,7 @@ export function Hero() {
                     fontSize: "42px",
                     fontWeight: 700,
                     lineHeight: 1.1,
-                    color: "#2F80ED",
+                    color: "white",
                   }}
                 >
                   {stat.value}

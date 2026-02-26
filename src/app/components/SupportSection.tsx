@@ -255,7 +255,7 @@ function SupportCard({
       </div>
 
       {/* Arrow */}
-      <div
+      {/* <div
         className="flex-shrink-0 self-center w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-200"
         style={{
           background: hov ? `${item.color}15` : "#F3F5F8",
@@ -266,7 +266,7 @@ function SupportCard({
         <svg viewBox="0 0 16 16" fill="none" className="w-4 h-4">
           <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }
