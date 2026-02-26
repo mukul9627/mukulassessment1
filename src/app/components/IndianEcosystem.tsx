@@ -15,7 +15,7 @@ export function IndianEcosystem() {
       className="relative w-full overflow-hidden"
       style={{
         background: "linear-gradient(160deg, #0E2A47 0%, #0E2A47 40%, #1E5FA8 80%, #0E2A47 100%)",
-        fontFamily: "'Inter', sans-serif",
+        fontFamily: "'Poppins-Regular', sans-serif",
         padding: "110px 0",
       }}
       ref={ref}
@@ -68,7 +68,7 @@ export function IndianEcosystem() {
             <h2
               className="text-white uppercase"
               style={{
-                fontFamily: "'Rajdhani', sans-serif",
+                fontFamily: "OrganettoBold",
                 fontSize: "clamp(40px, 4.5vw, 60px)",
                 fontWeight: 600,
                 lineHeight: 1.08,
@@ -114,7 +114,7 @@ export function IndianEcosystem() {
     >
       <div
         style={{
-          fontFamily: "'Rajdhani', sans-serif",
+          fontFamily: "OrganettoBold",
           fontSize: "36px",
           fontWeight: 700,
           lineHeight: 1,
@@ -217,7 +217,7 @@ function EcosystemGlobe() {
         </svg>
         <span
           className="absolute bottom-3 text-white/60 tracking-[0.15em]"
-          style={{ fontFamily: "'Rajdhani', sans-serif", fontSize: "10px", fontWeight: 600 }}
+          style={{ fontFamily: "OrganettoBold", fontSize: "10px", fontWeight: 600 }}
         >
           भारत
         </span>

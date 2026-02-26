@@ -44,7 +44,7 @@ export function Footer() {
   };
 
   return (
-    <footer id="footer" className="w-full" style={{ fontFamily: "'Inter', sans-serif", background: "#0E2A47" }}>
+    <footer id="footer" className="w-full" style={{ fontFamily: "'Poppins-Regular', sans-serif", background: "#0E2A47" }}>
       {/* Top gradient accent */}
       <div
         className="h-px"

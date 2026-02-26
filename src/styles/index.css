@@ -1,3 +1,32 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+
+/* Register Fonts Properly */
+@font-face {
+  font-family: "OrganettoBold";
+  src: url("./Demo_Fonts/Fontspring-DEMO-organetto-extultrabold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OrganettoCndBold";
+  src: url("./Demo_Fonts/Fontspring-DEMO-organetto-cndbold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OrganettoUltraBold";
+  src: url("./Demo_Fonts/Fontspring-DEMO-organetto-ultrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./poppins//Poppins-Regular.ttf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}

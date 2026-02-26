@@ -15,7 +15,7 @@ export function Purpose() {
     <section
       id="purpose"
       className="w-full bg-white"
-      style={{ fontFamily: "'Inter', sans-serif", padding: "110px 0" }}
+      style={{ fontFamily: "'Poppins-Regular', sans-serif", padding: "110px 0" }}
       ref={ref}
     >
       <div className="max-w-[1200px] mx-auto px-8">
@@ -43,8 +43,8 @@ export function Purpose() {
             <h2
               className="uppercase tracking-[0.04em] mb-6"
               style={{
-                fontFamily: "'Rajdhani', sans-serif",
-                fontSize: "clamp(40px, 4.5vw, 60px)",
+                fontFamily: "OrganettoBold",
+                fontSize: "clamp(30px, 4.5vw, 30px)",
                 fontWeight: 600,
                 lineHeight: 1.12,
                 color: "#1A1A1A",

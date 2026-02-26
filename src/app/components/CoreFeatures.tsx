@@ -57,7 +57,7 @@ export function CoreFeatures() {
     <section
       id="core"
       className="w-full bg-white"
-      style={{ fontFamily: "'Inter', sans-serif", padding: "110px 0" }}
+      style={{ fontFamily: "'Poppins-Regular', sans-serif", padding: "110px 0" }}
       ref={ref}
     >
       <div className="max-w-[1200px] mx-auto px-8">
@@ -82,9 +82,9 @@ export function CoreFeatures() {
           <h2
             className="uppercase tracking-[0.04em] mb-6"
             style={{
-              fontFamily: "'Rajdhani', sans-serif",
-              fontSize: "clamp(40px, 4.5vw, 60px)",
-              fontWeight: 600,
+              fontFamily: "OrganettoBold",
+              fontSize: "clamp(30px, 4.5vw, 30px)",
+              fontWeight: 800,
               lineHeight: 1.12,
               color: "#1A1A1A",
             }}
@@ -212,9 +212,9 @@ export function CoreFeatures() {
                   {/* Large number */}
                   <div
                     style={{
-                      fontFamily: "'Rajdhani', sans-serif",
+                      fontFamily: "OrganettoBold",
                       fontSize: "52px",
-                      fontWeight: 700,
+                      fontWeight: 800,
                       lineHeight: 1,
                       marginBottom: "10px",
                       color: isHov ? f.color : "#D1DCF0",
@@ -267,7 +267,7 @@ export function CoreFeatures() {
                 boxShadow: "0 2px 16px rgba(0,0,0,0.05)",
               }}
             >
-              <div className="text-2xl mb-4" style={{fontFamily: "'Rajdhani', sans-serif",  fontWeight: 700}}>{f.icon}</div>
+              <div className="text-2xl mb-4" style={{fontFamily: "OrganettoBold",  fontWeight: 800}}>{f.icon}</div>
               <div className="mb-2" style={{ fontSize: "20px", fontWeight: 600, color: "#1A1A1A", lineHeight: 1.3 }}>
                 {f.title}
               </div>

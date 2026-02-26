@@ -35,7 +35,7 @@ export function Navbar() {
         background: scrolled ? "rgba(14, 42, 71, 0.96)" : "transparent",
         backdropFilter: scrolled ? "blur(20px)" : "none",
         borderBottom: scrolled ? "1px solid rgba(255,255,255,0.07)" : "1px solid transparent",
-        fontFamily: "'Inter', sans-serif",
+        fontFamily: "'Poppins-Regular', sans-serif",
       }}
     >
       <div className="max-w-[1200px] mx-auto px-8">

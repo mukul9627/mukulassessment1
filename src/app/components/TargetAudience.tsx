@@ -67,7 +67,7 @@ export function TargetAudience() {
       className="w-full"
       style={{
         background: "#F3F5F8",
-        fontFamily: "'Inter', sans-serif",
+        fontFamily: "'Poppins-Regular', sans-serif",
         padding: "110px 0",
       }}
       ref={ref}
@@ -94,8 +94,8 @@ export function TargetAudience() {
           <h2
             className="uppercase tracking-[0.04em] mb-6"
             style={{
-              fontFamily: "'Rajdhani', sans-serif",
-              fontSize: "clamp(40px, 4.5vw, 60px)",
+              fontFamily: "OrganettoBold",
+              fontSize: "clamp(30px, 4.5vw, 30px)",
               fontWeight: 600,
               lineHeight: 1.12,
               color: "#1A1A1A",

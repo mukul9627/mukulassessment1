@@ -24,7 +24,7 @@ export function Hero() {
       className="relative w-full overflow-hidden"
       style={{
         background: "linear-gradient(160deg, #0E2A47 0%, #0E2A47 30%, #1E5FA8 80%, #0E2A47 100%)",
-        fontFamily: "'Inter', sans-serif",
+        fontFamily: "'Poppins-Regular', sans-serif",
         minHeight: "100vh",
       }}
     >
@@ -111,26 +111,14 @@ export function Hero() {
         className="relative max-w-[1200px] mx-auto px-8 flex flex-col items-center justify-center text-center"
         style={{ paddingTop: "180px", paddingBottom: "120px" }}
       >
-        {/* Badge */}
-        <div style={fadeUp(0)}>
-          <div
-            className="inline-flex items-center gap-2.5 border border-white/12 rounded-full bg-white/5 mb-8"
-            style={{ padding: "9px 24px", backdropFilter: "blur(8px)" }}
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-[#2F80ED]" style={{ boxShadow: "0 0 6px #2F80ED" }} />
-            <span className="text-white/60 tracking-[0.18em] uppercase" style={{ fontSize: "14px", fontWeight: 500 }}>
-              India's National Sports Development Platform
-            </span>
-          </div>
-        </div>
 
         {/* H1 */}
         <div style={fadeUp(100)}>
           <h1
             className="text-white uppercase mb-6 max-w-4xl"
             style={{
-              fontFamily: "'Rajdhani', sans-serif",
-              fontSize: "clamp(52px, 6vw, 80px)",
+              fontFamily: "OrganettoBold",
+              fontSize: "clamp(30px, 6vw, 80px)",
               fontWeight: 700,
               lineHeight: 1.08,
               letterSpacing: "0.01em",
@@ -140,6 +128,7 @@ export function Hero() {
             <br />
             <span
               style={{
+                 fontFamily: "OrganettoBold",
                 background: "linear-gradient(90deg, #2F80ED, #60a5fa)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
@@ -163,17 +152,17 @@ export function Hero() {
         <div style={fadeUp(300)}>
           <p
             className="max-w-2xl mb-4"
-            style={{ fontSize: "22px", fontWeight: 400, lineHeight: 1.7, color: "rgba(255,255,255,0.7)" }}
+            style={{ fontSize: "22px",fontFamily:"Poppins-Regular", fontWeight: 400, lineHeight: 1.7, color: "rgba(255,255,255,0.7)" }}
           >
             A centralized digital platform for structured, scientific athlete development across the Indian
             sports ecosystem — built for athletes, coaches, sports science professionals, and training centers.
           </p>
-          <p
+          {/* <p
             className="max-w-xl mb-12"
             style={{ fontSize: "18px", fontWeight: 400, lineHeight: 1.7, color: "rgba(255,255,255,0.4)" }}
           >
             Unify training, wellness, nutrition, and performance data under a single governed system.
-          </p>
+          </p> */}
         </div>
 
         {/* CTAs */}
@@ -223,7 +212,7 @@ export function Hero() {
         </div> */}
 
         {/* Stats */}
-        <div style={fadeUp(500)}>
+        {/* <div style={fadeUp(500)}>
           <div className="flex flex-wrap justify-center gap-x-10 gap-y-6">
             {[
               { value: "6+", label: "Core Modules" },
@@ -234,7 +223,7 @@ export function Hero() {
               <div key={stat.label} className="text-center">
                 <div
                   style={{
-                    fontFamily: "'Rajdhani', sans-serif",
+                    fontFamily: "OrganettoBold",
                     fontSize: "42px",
                     fontWeight: 700,
                     lineHeight: 1.1,
@@ -252,7 +241,7 @@ export function Hero() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Bottom fade */}

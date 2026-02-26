@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div
       className="w-full min-h-screen bg-white"
-      style={{ fontFamily: "'Inter', sans-serif", scrollBehavior: "smooth" }}
+      style={{ fontFamily: "'Poppins-Regular', sans-serif", scrollBehavior: "smooth" }}
     >
       <Navbar />
       <main>
