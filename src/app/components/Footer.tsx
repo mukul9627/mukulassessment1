@@ -184,10 +184,6 @@ export function Footer() {
           <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.25)", textTransform:"uppercase" }}>
            COPYRIGHT © 2026 Athlete Management System . All Rights Reserved.
           </p>
-          {/* <div className="flex items-center gap-2">
-            <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
-            <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.25)" }}>All systems operational</span>
-          </div> */}
         </div>
       </div>
     </footer>

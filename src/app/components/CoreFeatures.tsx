@@ -108,7 +108,7 @@ export function CoreFeatures() {
               transitionDelay: "200ms",
             }}
           >
-            {/* ── SVG layer: dashed connecting lines + endpoint dots ── */}
+            {/* ── SVG layer: dashed connecting lines + endpoint dots by mukul sharma ── */}
             <svg
               className="absolute inset-0 pointer-events-none"
               width={1100}
