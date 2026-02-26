@@ -66,7 +66,7 @@ export function Purpose() {
             </p>
 
             {/* Key pillars */}
-            <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8">
               {pillars.map((item, i) => (
                 <PillarItem key={item.title} item={item} delay={i * 80} inView={inView} />
               ))}

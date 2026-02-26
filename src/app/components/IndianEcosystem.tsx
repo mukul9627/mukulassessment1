@@ -98,40 +98,41 @@ export function IndianEcosystem() {
             </p>
 
             {/* Stat grid */}
-            <div className="grid grid-cols-3 gap-5">
-              {stats.map((s, i) => (
-                <div
-                  key={s.label}
-                  className="rounded-xl border border-white/10 transition-all duration-300 hover:-translate-y-1 hover:border-white/20"
-                  style={{
-                    padding: "20px 16px",
-                    background: "rgba(255,255,255,0.05)",
-                    backdropFilter: "blur(8px)",
-                    opacity: inView ? 1 : 0,
-                    transitionDelay: `${i * 80 + 300}ms`,
-                    transform: inView ? "translateY(0)" : "translateY(16px)",
-                  }}
-                >
-                  <div
-                    style={{
-                      fontFamily: "'Rajdhani', sans-serif",
-                      fontSize: "36px",
-                      fontWeight: 700,
-                      lineHeight: 1,
-                      color: "#2F80ED",
-                    }}
-                  >
-                    {s.val}
-                  </div>
-                  <div
-                    className="text-white/45 mt-2 uppercase tracking-wider"
-                    style={{ fontSize: "13px", fontWeight: 500 }}
-                  >
-                    {s.label}
-                  </div>
-                </div>
-              ))}
-            </div>
+           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+  {stats.map((s, i) => (
+    <div
+      key={s.label}
+      className="rounded-xl border border-white/10 transition-all duration-300 hover:-translate-y-1 hover:border-white/20"
+      style={{
+        padding: "20px 16px",
+        background: "rgba(255,255,255,0.05)",
+        backdropFilter: "blur(8px)",
+        opacity: inView ? 1 : 0,
+        transitionDelay: `${i * 80 + 300}ms`,
+        transform: inView ? "translateY(0)" : "translateY(16px)",
+      }}
+    >
+      <div
+        style={{
+          fontFamily: "'Rajdhani', sans-serif",
+          fontSize: "36px",
+          fontWeight: 700,
+          lineHeight: 1,
+          color: "#2F80ED",
+        }}
+      >
+        {s.val}
+      </div>
+
+      <div
+        className="text-white/45 mt-2 uppercase tracking-wider"
+        style={{ fontSize: "13px", fontWeight: 500 }}
+      >
+        {s.label}
+      </div>
+    </div>
+  ))}
+</div>
           </div>
 
           {/* Right: Globe — 5 cols offset */}

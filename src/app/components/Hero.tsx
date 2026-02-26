@@ -177,7 +177,7 @@ export function Hero() {
         </div>
 
         {/* CTAs */}
-        <div style={fadeUp(400)}>
+        {/* <div style={fadeUp(400)}>
           <div className="flex flex-wrap gap-4 justify-center mb-16">
             <button
               onClick={() => scrollTo("#audience")}
@@ -220,7 +220,7 @@ export function Hero() {
               Learn More →
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Stats */}
         <div style={fadeUp(500)}>

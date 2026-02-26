@@ -1,14 +1,18 @@
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { useInView } from "../hooks/useInView";
+import Aicon from "../../assets/Group 55164.svg";
+import Cicon from "../../assets/Group 55168.svg";
+import Sicon from "../../assets/Group 55169.svg";
+import Ticon from "../../assets/Group 55170.svg";
 
 const audiences = [
   {
     id: 1,
     tag: "Athletes",
-    title: "Train with\nData Precision",
+    // title: "Train with\nData Precision",
     description:
-      "Track training activities, nutrition, wellness, and performance within a structured, data-governed environment tailored for Indian high-performance sports.",
+      "Track training, wellness, nutrition, and recovery within a structured digital environment.",
     color: "#2F80ED",
     bg: "#EEF4FF",
     borderGlow: "rgba(47,128,237,0.3)",
@@ -18,9 +22,9 @@ const audiences = [
   {
     id: 2,
     tag: "Coaches",
-    title: "Plan,\nMonitor & Evaluate",
+    // title: "Plan,\nMonitor & Evaluate",
     description:
-      "Plan, monitor, and evaluate training programs with athlete-specific insights and systematic progress tracking across all training phases.",
+      "Plan, monitor, and evaluate training programs with athlete-specific insights.",
     color: "#0b7a3e",
     bg: "#ecfdf5",
     borderGlow: "rgba(11,122,62,0.3)",
@@ -30,9 +34,9 @@ const audiences = [
   {
     id: 3,
     tag: "Sports Science",
-    title: "Scientific\nAssessments",
+    // title: "Scientific\nAssessments",
     description:
-      "Conduct discipline-specific assessments and generate structured, anonymised scientific reports for informed decision-making.",
+      "Conduct discipline-specific assessments & generate scientific reports.",
     color: "#7c3aed",
     bg: "#faf5ff",
     borderGlow: "rgba(124,58,237,0.3)",
@@ -42,9 +46,9 @@ const audiences = [
   {
     id: 4,
     tag: "Administrators",
-    title: "Govern &\nOversee",
+    // title: "Govern &\nOversee",
     description:
-      "Enable standardized workflows, operational oversight, and institutional data consistency across training programs and development pathways.",
+      "Enable standardized workflows, centralized oversight, & institutional data consistency across programs.",
     color: "#b45309",
     bg: "#fffbeb",
     borderGlow: "rgba(180,83,9,0.3)",
@@ -209,51 +213,40 @@ export function TargetAudience() {
 
 function AthleteIcon() {
   return (
-    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
-      <circle cx="16" cy="7" r="4.5" fill="#2F80ED" />
-      <path d="M8 28 Q8 18 16 18 Q24 18 24 28" fill="#2F80ED" />
-      <path d="M13 18 L10 26" stroke="#2F80ED" strokeWidth="2" strokeLinecap="round" />
-      <path d="M19 18 L22 26" stroke="#2F80ED" strokeWidth="2" strokeLinecap="round" />
-    </svg>
+    <img 
+      src={Aicon} 
+      alt="Athlete Icon"
+      className="w-7 h-7"
+    />
   );
 }
 
 function CoachIcon() {
   return (
-    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
-      <circle cx="12" cy="7" r="4" fill="#0b7a3e" />
-      <path d="M5 24 Q5 16 12 16 Q19 16 19 24" fill="#0b7a3e" />
-      <rect x="20" y="11" width="10" height="8" rx="2" fill="#0b7a3e" opacity="0.8" />
-      <path d="M22 15h6M22 17.5h4" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
-      <path d="M24 19 L24 24 L28 21.5Z" fill="#0b7a3e" />
-    </svg>
+     <img 
+      src={Cicon} 
+      alt="Athlete Icon"
+      className="w-7 h-7"
+    />
   );
 }
 
 function ScienceIcon() {
   return (
-    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
-      <rect x="5" y="9" width="22" height="16" rx="2.5" fill="#7c3aed" opacity="0.12" stroke="#7c3aed" strokeWidth="1.5" />
-      <path
-        d="M9 20 L12 15 L16 18 L20 12 L23 16"
-        stroke="#7c3aed"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path d="M10 6 L22 6" stroke="#7c3aed" strokeWidth="1.8" strokeLinecap="round" />
-      <path d="M12 6 L12 9 M20 6 L20 9" stroke="#7c3aed" strokeWidth="1.8" strokeLinecap="round" />
-    </svg>
+     <img 
+      src={Sicon} 
+      alt="Athlete Icon"
+      className="w-7 h-7"
+    />
   );
 }
 
 function AdminIcon() {
   return (
-    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
-      <rect x="4" y="14" width="24" height="14" rx="2" fill="#b45309" opacity="0.12" stroke="#b45309" strokeWidth="1.5" />
-      <path d="M10 14 L10 10 Q10 6 16 6 Q22 6 22 10 L22 14" stroke="#b45309" strokeWidth="1.5" />
-      <rect x="13" y="20" width="6" height="8" rx="1" fill="#b45309" />
-      <circle cx="16" cy="17" r="1.5" fill="#b45309" />
-    </svg>
+      <img 
+      src={Ticon} 
+      alt="Athlete Icon"
+      className="w-7 h-7"
+    />
   );
 }
